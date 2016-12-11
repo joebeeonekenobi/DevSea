@@ -1,6 +1,6 @@
 module.exports = function(wss){
 
-	var serverPassword = require("./serverPassword.pem");
+	var serverPassword = require("./serverpassword.pem");
 
 	var tokenHandler = function(token, ws){
 
