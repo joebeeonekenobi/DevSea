@@ -3,7 +3,7 @@ var fs = require('fs');
 var httpServ = require('https');
 var WebSocketServer   = require('ws').Server;
 
-var port = 7946;
+var port = 8081;
 
 var ssl_key = "openkey.pem";
 var ssl_cert = "opencert.pem";
